@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(64, 78, 237);
+    min-height: 70px;
+}
+
+#bar {
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-evenly;
+}
