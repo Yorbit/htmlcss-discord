@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -22,7 +22,22 @@ header {
     height: 80px;
     display: flex;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1400px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+#jumbotron .spot {
+    height: 100%;
+}
+
+#jumbotron {
+    height: 760px;
+    background-color: black;
 }
