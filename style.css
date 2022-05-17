@@ -14,8 +14,13 @@ body {
 }
 
 header {
-    background-color: rgb(64, 78, 237);
+    background-color: rgb(47, 94, 196);
     min-height: 70px;
+}
+
+section {
+    padding: 60px 0;
+    min-height: 200px;
 }
 
 #bar {
@@ -38,6 +43,39 @@ a {
 }
 
 #jumbotron {
+    display: flex;
     height: 760px;
     background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    background-color: transparent;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.section-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 100%;
+}
+
+.small-col {
+    background-color: lightblue;
+    flex-basis: 40%;
+}
+
+.large-col {
+    background-color: blue;
+    flex-basis: 60%;
 }
