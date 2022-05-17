@@ -73,6 +73,9 @@ h1 {
 .small-col {
     background-color: lightblue;
     flex-basis: 40%;
+    text-align: left;
+    padding: 20px;
+    font-size: x-large;
 }
 
 .large-col {
