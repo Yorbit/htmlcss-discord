@@ -14,8 +14,9 @@ body {
 }
 
 header {
-    background-color: rgb(47, 94, 196);
+    background-color: rgb(41, 98, 223);
     min-height: 70px;
+    color: white;
 }
 
 section {
@@ -27,6 +28,13 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+}
+
+.btn {
+    font-size: 14px;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
 }
 
 #bar {
@@ -45,8 +53,14 @@ a {
     color: white;
 }
 
-#jumbotron .spot {
-    height: 100%;
+#jumbotron .content {
+    width: 50%;
+    text-align: center;
+}
+
+#jumbotron h1 {
+    font-size: 50px;
+    margin-bottom: 50px
 }
 
 #jumbotron {
@@ -55,14 +69,9 @@ a {
     background-size: cover;
     background-position: center;
     height: 500px;
-    background-color: rgb(47, 94, 196);
+    background-color: rgb(41, 98, 223);
     justify-content: center;
     align-items: center;
-}
-
-h1 {
-    color: white;
-    background-color: transparent;
 }
 
 .white {
