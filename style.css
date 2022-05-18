@@ -23,6 +23,12 @@ section {
     min-height: 200px;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
 #bar {
     height: 80px;
     display: flex;
@@ -30,6 +36,7 @@ section {
     max-width: 1400px;
     align-items: center;
     justify-content: space-around;
+
 }
 
 a {
@@ -44,8 +51,11 @@ a {
 
 #jumbotron {
     display: flex;
-    height: 760px;
-    background-color: black;
+    background-image: url(../jumbo.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-color: rgb(47, 94, 196);
     justify-content: center;
     align-items: center;
 }
