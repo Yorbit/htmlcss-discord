@@ -35,6 +35,24 @@ ul {
     color: black;
     padding: 10px 15px;
     border-radius: 20px;
+    display: inline-block;
+}
+
+.btn-white {
+    color: black;
+    background-color: white;
+}
+
+.btn-black {
+    color: white;
+    background-color: black;
+    margin-left: 30px;
+}
+
+.btn-big {
+    padding: 15px 20px;
+    font-size: 22px;
+    border-radius: 30px;
 }
 
 #bar {
@@ -60,7 +78,13 @@ a {
 
 #jumbotron h1 {
     font-size: 50px;
-    margin-bottom: 50px
+    margin-bottom: 20px
+}
+
+#jumbotron p {
+    font-size: 22px;
+    line-height: 50px;
+    margin-bottom: 40px;
 }
 
 #jumbotron {
@@ -86,18 +110,38 @@ a {
     display: flex;
     margin: 0 auto;
     max-width: 1400px;
-    height: 100%;
+}
+
+.section-image {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.full-page {
+    padding: 0 100px;
+}
+
+.full-page-image {
+    width: 80%;
+    padding-left: 300px;
+}
+
+h2 {
+    padding-bottom: 30px;
 }
 
 .small-col {
-    background-color: lightblue;
+    background-color: transparent;
     flex-basis: 40%;
     text-align: left;
     padding: 20px;
     font-size: x-large;
+    line-height: 35px;
+    padding: 50px;
 }
 
 .large-col {
-    background-color: blue;
+    background-color: transparent;
     flex-basis: 60%;
+    padding: 20px;
 }
